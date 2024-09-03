@@ -98,3 +98,67 @@ body{
     color: white;
     font-size: 2vw;
 }
+
+    @media (max-width: 1024px) and (min-width: 768px){
+       
+        .seccion{
+            flex-direction: column;
+      }
+      .descripcion-seccion  {
+        width: 100%;
+    }
+    .imagen-seccion {
+        width: 100%;
+    }
+    .primer-descripcion {
+        font-size: 4.5vw;
+    }
+    .segunda-descripcion {
+        font-size: 4.5vw;
+    }
+    #conoce{
+        font-size: 4.5vw;
+        margin-bottom: 20px;
+    }
+    .descripcion-seccion-final {
+        width: 100%;
+        font-size: 4.5vw;
+    }
+    .final .despedida {
+        margin-top: 25px;
+        font-size: 4.5vw;
+    }
+       
+        
+
+}
+
+@media only screen and (max-width: 431px) {
+    .seccion{
+        flex-direction: column;
+  }
+  .descripcion-seccion  {
+    width: 100%;
+}
+.imagen-seccion {
+    width: 100%;
+}
+.primer-descripcion {
+    font-size: 4.5vw;
+}
+.segunda-descripcion {
+    font-size: 4.5vw;
+}
+#conoce{
+    font-size: 4.5vw;
+    margin-bottom: 20px;
+}
+.descripcion-seccion-final {
+    width: 100%;
+    
+}
+.final .despedida {
+    margin-top: 25px;
+}
+
+}
